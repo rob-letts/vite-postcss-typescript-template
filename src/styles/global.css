@@ -1,0 +1,17 @@
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+
+:--heading  {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+
+h2 {
+  color: orange;
+}
+
+div {
+  & h2 {
+    color: blue;
+  }
+}
